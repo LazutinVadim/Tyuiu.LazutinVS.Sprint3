@@ -9,7 +9,7 @@ namespace Tyuiu.LazutinVS.Sprint3.Task0.V17.Lib
         public double GetSumSeries(int startValue, int stopValue)
         {
             double sum = 0;
-            for (int i = startValue; i < stopValue; i++)
+            for (int i = startValue; i <= stopValue; i++)
             {
                 sum += Math.Cos(i) * 0.5;
             }
