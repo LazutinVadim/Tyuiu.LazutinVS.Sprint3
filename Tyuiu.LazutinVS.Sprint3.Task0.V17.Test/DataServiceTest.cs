@@ -14,7 +14,7 @@ namespace Tyuiu.LazutinVS.Sprint3.Task0.V17.Test
             int startValue = 1;
             int stopValue = 10;
 
-            double result = ds.GetSumSeries(value, startValue, stopValue);
+            double result = ds.GetSumSeries(startValue, stopValue);
 
             // Правильный расчет ожидаемого значения
             double wait = 0.0;
