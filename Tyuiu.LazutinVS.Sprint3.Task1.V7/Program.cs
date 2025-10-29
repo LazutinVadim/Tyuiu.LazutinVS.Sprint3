@@ -3,22 +3,24 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        double a = 0.25;
-        int start = 1;
-        int end = 9;
+        //double a = 0.25;
+        //int start = 1;
+        //int end = 9;
 
-        Console.WriteLine("a = " + a);
-        Console.WriteLine("начальный шаг = " + start);
-        Console.WriteLine("конечный шаг = " + end);
+        //Console.WriteLine("a = " + a);
+        //Console.WriteLine("начальный шаг = " + start);
+        //Console.WriteLine("конечный шаг = " + end);
 
-        DataService ds = new DataService();
-        double MultiplySeries = ds.GetMultiplySeries(a, start, end);
+        //DataService ds = new DataService();
+        //double MultiplySeries = ds.GetMultiplySeries(a, start, end);
 
-        Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
-        Console.WriteLine("***************************************************************************");
+        //Console.WriteLine("***************************************************************************");
+        //Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+        //Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine(MultiplySeries);
-        Console.ReadKey();
+        //Console.WriteLine(MultiplySeries);
+        //Console.ReadKey();
+
+
     }
 }
