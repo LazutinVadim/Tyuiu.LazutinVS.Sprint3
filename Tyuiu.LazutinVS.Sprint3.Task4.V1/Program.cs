@@ -6,7 +6,7 @@ internal class Program
         DataService ds = new DataService();
         double sum = ds.Calculate(-5, 5);
 
-        Console.WriteLine($"Сумма значений функции: {sum}");
+        Console.WriteLine($"Сумма значений функции : {sum}");
 
         Console.ReadKey();
     }
